@@ -1,5 +1,4 @@
 
-```markdown
 # 🛍️ Retail Data Cleaning and Analysis
 
 ![GitHub Repo Stars](https://img.shields.io/github/stars/AntBap23/Retail-data-cleaning-and-analysis?style=social)
