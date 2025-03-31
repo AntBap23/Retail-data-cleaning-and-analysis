@@ -1,126 +1,103 @@
-# Retail-data-cleaning
 
 ```markdown
 # 🛍️ Retail Data Cleaning and Analysis
 
-This project focuses on cleaning and analyzing retail data using Python, SQL, and Power BI. The goal is to transform raw retail data into meaningful business insights through proper data preparation, querying, and visualization.
+![GitHub Repo Stars](https://img.shields.io/github/stars/AntBap23/Retail-data-cleaning-and-analysis?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/AntBap23/Retail-data-cleaning-and-analysis?style=social)
+![License](https://img.shields.io/github/license/AntBap23/Retail-data-cleaning-and-analysis)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/AntBap23/Retail-data-cleaning-and-analysis)
 
-## 📊 Overview
+## 📌 Project Overview
 
-Retail businesses generate large amounts of data daily — from sales transactions to customer behavior. This project demonstrates how to:
-- Clean and prepare raw retail data using Python
-- Perform analytical queries using SQL to uncover trends and performance metrics
-- Build interactive dashboards in Power BI for stakeholder reporting
-
----
-
-## 🛠️ Tools & Technologies
-
-| Tool        | Purpose                          |
-|-------------|----------------------------------|
-| **Python**  | Data cleaning and preprocessing  |
-| **SQL**     | Data analysis and querying       |
-| **Power BI**| Data visualization & dashboards  |
+This project demonstrates how to transform messy retail data into actionable business insights using Python, SQL, and Power BI. It includes data cleaning, querying, and dashboard creation to support decision-making in retail operations.
 
 ---
 
-## 📂 Project Structure
+## 📂 Dataset
 
-```
-Retail-data-cleaning-and-analysis/
-│
-├── data/                      # Raw and cleaned datasets
-│   └── retail_raw.csv
-│
-├── python-cleaning/           # Python scripts for data cleaning
-│   └── clean_retail_data.py
-│
-├── sql-analysis/              # SQL scripts for analysis
-│   ├── sales_summary.sql
-│   └── top_products.sql
-│
-├── dashboards/                # Power BI files and screenshots
-│   └── retail_dashboard.pbix
-│   └── dashboard_screenshot.png
-│
-└── README.md
-```
+The dataset used in this project includes retail-related information such as:
+
+- **Order ID:** Unique transaction ID for each order  
+- **Customer Info:** Region, country, and segment data  
+- **Product Details:** Category, sub-category, and quantity ordered  
+- **Sales Data:** Sales, profit, shipping cost, and discount info  
+- **Order Dates:** Order and ship dates for time-based analysis  
 
 ---
 
-## 📌 Key Features
+## 🛠️ Technologies Used
 
-- **Data Cleaning**: Handled missing values, standardized date formats, corrected typos, and ensured consistency using pandas.
-- **SQL Analysis**:
-  - Total revenue and sales performance by region and product
-  - Customer segmentation and behavior insights
-  - Inventory and order trend tracking
-- **Power BI Dashboards**:
-  - Dynamic visuals for KPIs, trends, and product performance
-  - Filters by region, time period, and product category
-  - Executive-ready layout for presentations
+| Technology | Purpose |
+|------------|---------|
+| 🐍 Python | Data Cleaning |
+| 🐘 SQL | Data Analysis |
+| 📊 Power BI | Data Visualization |
 
 ---
 
-## 🧪 How to Run
+## 🚀 Installation & Usage
 
-### 1. Clone the Repository
+### 📥 1. Clone the Repository
+
 ```bash
 git clone https://github.com/AntBap23/Retail-data-cleaning-and-analysis.git
 cd Retail-data-cleaning-and-analysis
 ```
 
-### 2. Data Cleaning with Python
-- Navigate to `python-cleaning/`
-- Run the cleaning script:
+### 🧹 2. Data Cleaning with Python
+
+1. Navigate to the `python-cleaning` folder  
+2. Run the script `clean_retail_data.py` to clean and export the dataset  
+
 ```bash
 python clean_retail_data.py
 ```
 
-### 3. SQL Analysis
-- Use a SQL environment (e.g., MySQL, PostgreSQL, or SQLite)
-- Run scripts from `sql-analysis/` on the cleaned data
+### 🧠 3. SQL Analysis
 
-### 4. Power BI Dashboard
-- Open `retail_dashboard.pbix` in Power BI Desktop
-- Refresh data or connect to your SQL database as needed
+1. Use a SQL tool (e.g., MySQL Workbench, SQLite, DBeaver)  
+2. Run the SQL queries in the `sql-analysis` folder to explore sales, profit, customer trends, etc.
 
----
+### 📊 4. Power BI Dashboard
 
-## 🧠 Insights Uncovered
-
-- Identified best-performing products and regions
-- Detected seasonal trends in customer purchasing behavior
-- Created visual dashboards that help decision-makers monitor business KPIs
+1. Open `retail_dashboard.pbix` in Power BI Desktop  
+2. Load the cleaned dataset or connect to your SQL queries  
+3. View or customize the interactive retail dashboard  
 
 ---
 
-## 📷 Dashboard Preview
+## 🎯 Future Enhancements
 
-![Dashboard Screenshot](dashboards/dashboard_screenshot.png)
+- **Predictive Analytics:** Forecast future sales using machine learning  
+- **Real-Time Data:** Integrate live databases for ongoing updates  
+- **Enhanced Filtering:** Add slicers for product categories, shipping speed, etc.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork the repo and submit a pull request.
+We welcome contributions! Please follow these steps:
+
+1. **Fork the repository**  
+2. **Create a feature branch** (`git checkout -b feature-branch`)  
+3. **Commit your changes** (`git commit -m "Added new feature"`)  
+4. **Push to GitHub** (`git push origin feature-branch`)  
+5. **Submit a Pull Request** 🚀  
 
 ---
 
-## 📄 License
+## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is open-source under the **MIT License**.
 
 ---
 
-## 🙋‍♂️ About Me
+## 📬 Contact
 
-**Anthony Baptiste**  
-📚 Operations & Information Management @ Northern Illinois University  
-📫 [Connect with me on LinkedIn](https://www.linkedin.com/in/anthonybaptiste)
-
+**Author:** Anthony Baptiste  
+**GitHub:** [AntBap23](https://github.com/AntBap23)
 ```
 
 ---
 
-Let me know if you'd like help creating a matching Power BI dashboard screenshot or a LICENSE file!
+Let me know if you want to add a dashboard screenshot or a live demo link later!
