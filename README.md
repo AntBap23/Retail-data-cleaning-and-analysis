@@ -96,7 +96,3 @@ This project is open-source under the **MIT License**.
 **Author:** Anthony Baptiste  
 **GitHub:** [AntBap23](https://github.com/AntBap23)
 ```
-
----
-
-Let me know if you want to add a dashboard screenshot or a live demo link later!
