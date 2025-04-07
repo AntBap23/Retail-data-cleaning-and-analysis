@@ -59,7 +59,7 @@ python clean_retail_data.py
 
 ### 📊 4. Power BI Dashboard
 
-1. Open `retail_dashboard.pbix` in Power BI Desktop  
+1. Open `retail_dashboard.pdf` in Power BI Desktop  
 2. Load the cleaned dataset or connect to your SQL queries  
 3. View or customize the interactive retail dashboard  
 
